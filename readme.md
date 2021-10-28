@@ -1,10 +1,10 @@
 作る内容
 
-名前とageを返すHTTPサーバー
+Node.js で名前と age を返すソフト
 
-Mysqlのインストール
+作り方
 
-コマンド`mysql -u ユーザー名 -p`からパスワードを入力
+Mysql のインストール
 
 ```sql
 
@@ -21,5 +21,17 @@ select * from movie;#movieという表の内容全部表示
 INSERT INTO movie VALUES (4, "名探偵コナン");
 
 INSERT INTO movie VALUES (5, "ハリポ");
+
+```
+
+node.js のインストール
+
+npm i を実行
+
+index.js を編集
+
+```
+
+node index.js
 
 ```
